@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.navcolor:hover{
+  background-color: #1b4a79 !important;
+}
+
+.navcolor:focus{
+  background-color: #1b4a79 !important;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.tabselect:hover {
+  background-color: #f5f6ff;
+  cursor: pointer;
+}
+
+.cardBox {
+  box-shadow:0 2px 5px rgba(0,0,0,0.3)
+}
+
+.cardBox:hover {
+  box-shadow:0 4px 10px rgba(0,0,0,0.35);
+  cursor: pointer;
+}
+
+.MuiStepLabel-label.MuiStepLabel-alternativeLabel{
+  font-size: 12px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: rgb(167, 167, 167); 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}

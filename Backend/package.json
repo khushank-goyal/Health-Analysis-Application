@@ -1,0 +1,43 @@
+{
+  "name": "devicefarm-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akhilmandadi/devicefarm-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akhilmandadi/devicefarm-backend/issues"
+  },
+  "homepage": "https://github.com/akhilmandadi/devicefarm-backend#readme",
+  "dependencies": {
+    "aws-sdk": "^2.640.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "fetch": "^1.1.0",
+    "gmail-send": "^1.8.10",
+    "http-errors": "^1.7.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.9.5",
+    "morgan": "^1.10.0",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "shortid": "^2.2.15",
+    "splunk-logging": "^0.10.1",
+    "splunk-sdk": "^1.9.0",
+    "tracer": "^1.0.2",
+    "util": "^0.12.1",
+    "uuid": "^3.4.0"
+  }
+}
